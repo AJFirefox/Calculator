@@ -197,6 +197,7 @@
             Decimal.TabIndex = 12;
             Decimal.Text = ".";
             Decimal.UseVisualStyleBackColor = false;
+            Decimal.Click += Decimal_Click;
             // 
             // Exponent
             // 
@@ -285,6 +286,7 @@
             Clear.TabIndex = 20;
             Clear.Text = "AC";
             Clear.UseVisualStyleBackColor = false;
+            Clear.Click += Clear_Click;
             // 
             // Round
             // 
@@ -370,6 +372,7 @@
             Back.TabIndex = 22;
             Back.Text = "Back";
             Back.UseVisualStyleBackColor = false;
+            Back.Click += Back_Click;
             // 
             // result
             // 
@@ -378,6 +381,7 @@
             result.Name = "result";
             result.Size = new Size(274, 31);
             result.TabIndex = 28;
+            result.TextAlign = ContentAlignment.BottomRight;
             // 
             // Calculator
             // 
@@ -444,7 +448,7 @@
         private Button MemoryAdd;
         private Button Answer;
         private Button Back;
-        private Label result;
+        private Label Result;
         public Label result;
     }
 }

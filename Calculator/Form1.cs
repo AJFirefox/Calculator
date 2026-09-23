@@ -97,7 +97,30 @@ namespace Calculator
             result.Text += "/";
         }
 
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            if (result.Text == "Error") result.Text = "";
+            result.Text = "";
+        }
 
+        private void Decimal_Click(object sender, EventArgs e)
+        {
+            if (result.Text == "Error") result.Text = "";
+            result.Text += ".";
+        }
 
+        private void Back_Click(object sender, EventArgs e)
+        {
+            if (result.Text == "Error") result.Text = "";
+
+            if(result.Text.Length > 0)
+            {
+                result.Text = result.Text.Substring(0, result.Text.Length - 1);
+            }
+            else
+            {
+                return;
+            }
+        }
     }
 }

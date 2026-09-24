@@ -210,6 +210,7 @@
             Exponent.TabIndex = 13;
             Exponent.Text = "EXP";
             Exponent.UseVisualStyleBackColor = false;
+            Exponent.Click += Exponent_Click;
             // 
             // Divide
             // 
@@ -274,6 +275,7 @@
             Equal.TabIndex = 21;
             Equal.Text = "=";
             Equal.UseVisualStyleBackColor = false;
+            Equal.Click += Equal_Click;
             // 
             // Clear
             // 
@@ -299,6 +301,7 @@
             Round.TabIndex = 19;
             Round.Text = "RND";
             Round.UseVisualStyleBackColor = false;
+            Round.Click += Round_Click;
             // 
             // Negation
             // 
@@ -311,6 +314,7 @@
             Negation.TabIndex = 18;
             Negation.Text = "+/-";
             Negation.UseVisualStyleBackColor = false;
+            Negation.Click += Negation_Click;
             // 
             // MemoryRecall
             // 
@@ -324,6 +328,7 @@
             MemoryRecall.TabIndex = 26;
             MemoryRecall.Text = "MR";
             MemoryRecall.UseVisualStyleBackColor = false;
+            MemoryRecall.Click += MemoryRecall_Click;
             // 
             // MemoryRemove
             // 
@@ -336,6 +341,7 @@
             MemoryRemove.TabIndex = 25;
             MemoryRemove.Text = "M-";
             MemoryRemove.UseVisualStyleBackColor = false;
+            MemoryRemove.Click += MemoryRemove_Click;
             // 
             // MemoryAdd
             // 
@@ -348,6 +354,7 @@
             MemoryAdd.TabIndex = 24;
             MemoryAdd.Text = "M+";
             MemoryAdd.UseVisualStyleBackColor = false;
+            MemoryAdd.Click += MemoryAdd_Click;
             // 
             // Answer
             // 
@@ -360,6 +367,7 @@
             Answer.TabIndex = 23;
             Answer.Text = "Ans";
             Answer.UseVisualStyleBackColor = false;
+            Answer.Click += Answer_Click;
             // 
             // Back
             // 
